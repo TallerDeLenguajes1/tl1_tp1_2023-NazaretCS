@@ -96,3 +96,10 @@ dkms.conf
 # Support for Project snippet scope
 
 # End of https://www.toptal.com/developers/gitignore/api/c,visualstudiocode 
+
+
+
+
+##Incluya en su repositorio una regla de cómo ignorar un archivo ignorado.txt
+
+*.txt
