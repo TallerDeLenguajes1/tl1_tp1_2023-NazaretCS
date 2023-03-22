@@ -103,3 +103,13 @@ dkms.conf
 ##Incluya en su repositorio una regla de cómo ignorar un archivo ignorado.txt
 
 *.txt
+
+
+
+
+
+## Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo. ¿a qué se debe? ¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué? Responder en el archivo readme.md
+
+El hecho de que sean lo mismo se deve a que es el mismo valor ya que al puntero le asigno la direccion de memoria de la variable en medio el programa.
+
+En el punto 4 se obtiene como resultado la direccion de memoria de la variable de tipo puntero. Y no, no es igual a los anteriores, por la simple razon de q no son lo mismo: 1 cosa es la direccion de memoria de la varialbe, y otra lo es lo que guarda la variable en si.
